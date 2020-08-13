@@ -2,8 +2,8 @@ language: ruby
 dist: xenial
 before_install:
   - gem update --system
-  - gem uninstall bundler
   - gem install bundler -v 1.17.3
+  - gem uninstall bundler -v 2
 rvm:
   - 2.3.8
   - 2.4.6
