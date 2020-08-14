@@ -5,7 +5,7 @@ before_install:
   # v1.17.3. This is just for Ruby 2.5 which ships with bundler 2.x on Travis
   # CI while Ruby 2.6 does not.
   # https://github.com/travis-ci/travis-rubies/issues/57#issuecomment-458981237
-  - gem update --system 3.0.8
+  - gem update --system 3.0.7
   - rvm gemset create travis
   - rvm gemset use travis
   - gem install bundler -v 1.17.3
